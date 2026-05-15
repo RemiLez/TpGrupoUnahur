@@ -3,3 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: "Comic Neue";
+  font-size: 1.6rem;
+  background: #ff6347;
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
