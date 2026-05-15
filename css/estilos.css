@@ -21,3 +21,10 @@ header {
   height: 9rem;
   padding: 0 2rem;
 }
+
+footer {
+  background: rgb(50, 36, 247);
+  color: white;
+  width: 100%;
+  padding: 1rem 2rem;
+}
