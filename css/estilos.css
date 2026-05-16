@@ -36,6 +36,27 @@ header {
   margin-bottom: 20px;
 }
 
+/* ===================== */
+/* Navegación */
+/* ===================== */
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  margin: 10px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: lightgray;
+}
+
 footer {
   background: rgb(50, 36, 247);
   color: white;
