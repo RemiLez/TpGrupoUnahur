@@ -20,13 +20,13 @@
 }
 
 body {
-  font-family: "Comic Neue";
-  font-weight: 400;
+  font-family: "Comic Neue", sans-serif;
   font-size: 16px;
-  font-style: normal;
-  background: rgb(85, 74, 231);
-  color: rgb(255, 255, 255);
-  line-height: 1.5;
+  background: var(--color-fondo);
+  color: var(--color-texto);
+  line-height: 1.6;
+  max-width: 1100px;
+  margin: auto;
 }
 
 header {
