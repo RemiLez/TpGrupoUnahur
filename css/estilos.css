@@ -94,3 +94,14 @@ footer {
 #vias-contacto li {
   margin-bottom: 0.8rem;  
 }
+
+#vias-contacto a {
+  color: var(--color-secundario); 
+  text-decoration: none;         
+  font-weight: bold;             
+}
+
+#vias-contacto a:hover {
+  color: var(--color-primario);  
+  text-decoration: underline;    
+}
