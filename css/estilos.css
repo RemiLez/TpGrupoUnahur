@@ -53,6 +53,24 @@ section{
     padding:15px;
 }
 
+/* ===================== /
+/ Titulos /
+/ ===================== */
+
+h1{
+    font-size:32px;
+}
+
+h2{
+    font-size:26px;
+    color:var(--color-primario);
+}
+
+h3{
+    font-size:22px;
+    color:var(--color-secundario);
+}
+
 /* ===================== */
 /* Navegación */
 /* ===================== */
