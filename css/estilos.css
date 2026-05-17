@@ -81,3 +81,16 @@ footer {
   font-size: 1.8rem;             
   margin-bottom: 1.2rem;         
 }
+
+#vias-contacto p {
+  margin-bottom: 1.5rem;   
+}
+
+#vias-contacto ul {
+  padding-left: 20px;      
+  margin-bottom: 1.5rem;   
+}
+
+#vias-contacto li {
+  margin-bottom: 0.8rem;  
+}
