@@ -214,10 +214,21 @@ header {
   height: 180px;
 }
 
-/* El texto se posiciona de forma absoluta dentro del header */
 header p {
   position: absolute;
   bottom: 10px;
   right: 20px;
   margin: 0;
+}
+
+.navbar {
+  background-color: var(--color-primario);
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: #cfd2ff;
 }
