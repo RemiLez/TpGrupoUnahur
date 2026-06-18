@@ -265,15 +265,32 @@ header p {
   border-radius: 12px;
   box-shadow: 0 5px 15px rgba(94, 94, 94, 0.15);
   transition: transform 0.3s ease;
+  text-align: center;
 }
 
 .card img {
   padding: 15px;
   border-radius: 20px;
   object-fit: contain;
-  align-items: center;
+  margin: 15px auto 0 auto;
+  display: block;
 }
 
 .card-body h3 {
   margin-bottom: 10px;
+}
+
+.card-body {
+  background-color: #ffffff; /* Fondo blanco limpio para el texto */
+  border-radius: 0 0 12px 12px; /* Acompaña la redondez de la tarjeta */
+  padding: 20px;
+}
+
+#quienes-somos,
+#mision {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 6px rgb(94, 94, 94);
 }
