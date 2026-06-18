@@ -215,6 +215,41 @@ footer a:hover {
 }
 
 /* ===================== */
+/* Flexbox Contactos */
+/* ===================== */
+
+#vias-contacto ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding-left: 0;
+  list-style: none;
+}
+
+#vias-contacto li {
+  flex: 1 1 250px;
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+h2 {
+  position: relative;
+}
+
+.badge-contacto {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+
+  background: var(--color-secundario);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+}
+
+/* ===================== */
 /* Programas*/
 /* ===================== */
 
