@@ -294,3 +294,20 @@ header p {
   margin-bottom: 2rem;
   box-shadow: 0 4px 6px rgb(94, 94, 94);
 }
+
+#areas-de-trabajo {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 6px rgb(94, 94, 94);
+}
+
+#areas-de-trabajo .card {
+  background-color: var(--color-fondo);
+}
+
+#areas-de-trabajo p {
+  margin-top: 25px;
+  text-align: center;
+}
