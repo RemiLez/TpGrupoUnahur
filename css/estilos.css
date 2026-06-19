@@ -384,3 +384,34 @@ header p {
   margin-top: 25px;
   text-align: center;
 }
+
+/* Sección Nosotros */ 
+
+#Box-Nosotros{
+   background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 6px rgb(94, 94, 94);
+  border: 2px solid #000;
+}
+
+#Box-Contactanos{
+background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 6px rgb(94, 94, 94);
+   border: 2px solid #000;
+    
+}
+
+#Box-imagenes{
+background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 6px rgb(94, 94, 94);
+   border: 2px solid #000;
+
+}
