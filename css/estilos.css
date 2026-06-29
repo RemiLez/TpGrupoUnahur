@@ -413,5 +413,19 @@ background-color: white;
   margin-bottom: 2rem;
   box-shadow: 0 4px 6px rgb(94, 94, 94);
    border: 2px solid #000;
+}
+.navbar-nav 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+    list-style: none;
+    padding: 0;
+}
 
+.nav-link {
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
 }
