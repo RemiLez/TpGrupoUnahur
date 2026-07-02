@@ -317,6 +317,23 @@ h2 {
   box-shadow: 0 4px 6px rgb(94, 94, 94);
 }
 
+#programa-beca {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 6px rgb(94, 94, 94);
+}
+
+#tech-puentes {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 6px rgb(94, 94, 94);
+}
+
+
 /* ===================== */
 /* Posicionamiento */
 /* ===================== */
