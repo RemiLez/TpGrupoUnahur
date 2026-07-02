@@ -309,6 +309,14 @@ h2 {
   margin-bottom: 1.2rem;
 }
 
+#programa-semilla {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 6px rgb(94, 94, 94);
+}
+
 /* ===================== */
 /* Posicionamiento */
 /* ===================== */
