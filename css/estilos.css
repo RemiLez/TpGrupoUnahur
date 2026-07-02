@@ -231,7 +231,6 @@ footer a:hover {
 
 #vias-contacto li {
   flex: 1 1 250px;
-  background: white;
   padding: 10px;
   border-radius: 8px;
 }
@@ -594,4 +593,16 @@ body.dark-mode h2 span {
 /* Enlaces del contenido central */
 body.dark-mode main a {
   color: #64b5f6 !important;
+}
+
+.robot-oscuro {
+  display: none;
+}
+
+body.dark-mode .robot-claro {
+  display: none !important;
+}
+
+body.dark-mode .robot-oscuro {
+  display: block !important;
 }
