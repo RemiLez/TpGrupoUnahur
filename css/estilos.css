@@ -213,6 +213,10 @@ footer a:hover {
   text-decoration: underline;
 }
 
+#redes-contacto h3 {
+  color: white;    
+}
+
 /* ===================== */
 /* Flexbox Contactos */
 /* ===================== */
