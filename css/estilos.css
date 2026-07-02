@@ -429,3 +429,99 @@ background-color: white;
     padding: 10px 15px;
     display: inline-block;
 }
+
+/* para el título principal de la sección Nosotros */
+.texto-destacado-azul {
+    color: rgb(30, 53, 255);
+}
+
+.texto-azul {
+    color: blue;
+}
+
+/* Estilos base */
+body {
+    background-color: #ffffff;
+    color: #1a1a1a;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Clase que se aplica al activar el modo oscuro */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.dark-mode .texto-azul {
+    color: #64b5f6;
+}
+
+body.dark-mode .texto-destacado-azul {
+    color: #82b1ff;
+}
+
+/* Estilo simple para el botón */
+.btn-oscuro {
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #000;
+}
+body.dark-mode .btn-oscuro {
+    background-color: #333;
+    color: #fff;
+    border-color: #555;
+  }
+
+/* Boton del lado lateral*/
+.btn-oscuro
+ {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    z-index: 1000;
+}
+
+/* ESTILOS CUANDO EL MODO OSCURO ESTÁ ACTIVO  */
+
+/* El fondo general se vuelve oscuro */
+body.dark-mode {
+    background-color: #121212;
+}
+
+/* El cuadro blanco principal ahora pasa a tener fondo oscuro */
+body.dark-mode #Box-Nosotros, 
+body.dark-mode #Box-imagenes, 
+body.dark-mode #Box-Contactanos {
+    background-color: #1e1e1e; /* Fondo oscuro suave para los bloques */
+    border: 1px solid #333;    /* Borde sutil opcional */
+}
+
+/* Las letras de los párrafos dentro de los bloques se vuelven claras */
+body.dark-mode p {
+    color: #e0e0e0 !important; 
+}
+
+/* El título azul cambia a un tono celeste para mejor contraste */
+body.dark-mode .texto-destacado-azul,
+body.dark-mode .texto-azul {
+    color: #64b5f6 !important;
+}
+
+/* Las letras del encabezado (que arriba eran blancas) ahora pasan a ser negras */
+body.dark-mode header h1,
+body.dark-mode header p,
+body.dark-mode .nav-link {
+    color: #000000 !important;
+}
+
+/* Correción de tipografía */
+header h1 
+{
+    font-family: 'Comic Neue', sans-serif; /* Aplica la fuente de todas las páginas */
+    font-weight: 300;                      /* Usa el peso más fino disponible */
+    background-color: transparent;         /* Elimina cualquier recuadro o fondo */
+    display: inline-block;                 /* Evita que ocupe bloques fantasmas */
+}

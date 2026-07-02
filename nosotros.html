@@ -24,6 +24,7 @@
                 <a class="nav-link" href="contactos.html">Contacto</a>
             </div>
         </nav> 
+        <button id="toggle-dark-mode" class="btn-oscuro">Cambiar a Modo Oscuro 🌙</button>
     </header>
 
      <main>
@@ -31,24 +32,18 @@
 
         <section id="Box-Nosotros">
             
-        <h2>
-
-            <span style="color: rgb(30, 53, 255);">
-             
-                
-                ¿Quiénes somos y a qué nos dedicamos?
-
+          <h2>
+          
+            <span class="texto-destacado-azul">¿Quiénes somos y a qué nos dedicamos?</span>
         
-            </span>
+        </h2>
         
-              </h2>
-        
-                
+            
                 <article>
 
 
                 <p>
-                    Somos <strong>ProgramAR</strong>: la primera página web nacional argentina
+                    Somos ProgramAR:la primera página web nacional argentina
                     que se dedica exclusivamente al desarrollo, aprendizaje y enseñanza
                     de las áreas tecnológicas de la programación.
                 </p>
@@ -81,6 +76,8 @@
                     a profesionalizarse, amateurs y curiosos de la informática.
                 </p>
 
+
+         
                 
 
             </article>
@@ -92,9 +89,9 @@
 
 
             <h2>
-                <span style="color: blue;">
-                    Nuestra comunidad
-                </span>
+              
+                <span class="texto-azul">Nuestra comunidad</span>
+            
             </h2>
 
 
@@ -117,9 +114,9 @@
 
 
             <h2>
-                <span style="color: blue;">
-                    ¡Contactanos!
-                </span>
+                 
+                <span class="texto-azul">¡Contactanos!</span>
+            
             </h2>
 
 
@@ -142,7 +139,6 @@
     </main>
 
 
-     
     <footer>
             
         <p>&copy; 2026 ProgramAR - ONG de Educación e Inclusión Digital.</p>    
@@ -151,6 +147,16 @@
     
     
     </footer>
+
+
+<script>
+
+const btn = document.getElementById('toggle-dark-mode');
+    btn.addEventListener('click', () => {
+        document.body.classList.toggle('dark-mode');
+    });
+
+</script>
 
 </body>
 
