@@ -213,6 +213,10 @@ footer a:hover {
   text-decoration: underline;
 }
 
+#redes-contacto h3 {
+  color: white;    
+}
+
 /* ===================== */
 /* Flexbox Contactos */
 /* ===================== */
@@ -303,6 +307,14 @@ h2 {
   color: var(--color-primario);
   font-size: 1.8rem;
   margin-bottom: 1.2rem;
+}
+
+#programa-semilla {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 6px rgb(94, 94, 94);
 }
 
 /* ===================== */
