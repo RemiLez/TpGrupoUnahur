@@ -214,7 +214,7 @@ footer a:hover {
 }
 
 #redes-contacto h3 {
-  color: white;    
+  color: white;
 }
 
 /* ===================== */
@@ -274,7 +274,7 @@ h2 {
   font-weight: bold;
   padding: 10px 15px;
   border-radius: 20px;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
   position: relative;
   max-width: 200px;
 }
@@ -289,7 +289,7 @@ h2 {
   width: 12px;
   height: 12px;
   background: var(--color-secundario);
-}  
+}
 
 /* ===================== */
 /* Programas*/
@@ -414,10 +414,10 @@ header p {
   text-align: center;
 }
 
-/* Sección Nosotros */ 
+/* Sección Nosotros */
 
-#Box-Nosotros{
-   background-color: white;
+#Box-Nosotros {
+  background-color: white;
   padding: 2rem;
   border-radius: 10px;
   margin-bottom: 2rem;
@@ -425,132 +425,173 @@ header p {
   border: 2px solid #000;
 }
 
-#Box-Contactanos{
-background-color: white;
+#Box-Contactanos {
+  background-color: white;
   padding: 2rem;
   border-radius: 10px;
   margin-bottom: 2rem;
   box-shadow: 0 4px 6px rgb(94, 94, 94);
-   border: 2px solid #000;
-    
+  border: 2px solid #000;
 }
 
-#Box-imagenes{
-background-color: white;
+#Box-imagenes {
+  background-color: white;
   padding: 2rem;
   border-radius: 10px;
   margin-bottom: 2rem;
   box-shadow: 0 4px 6px rgb(94, 94, 94);
-   border: 2px solid #000;
+  border: 2px solid #000;
 }
-.navbar-nav 
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px; 
-    list-style: none;
-    padding: 0;
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
 }
 
 .nav-link {
-    text-decoration: none;
-    padding: 10px 15px;
-    display: inline-block;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: inline-block;
 }
 
 /* para el título principal de la sección Nosotros */
 .texto-destacado-azul {
-    color: rgb(30, 53, 255);
+  color: rgb(30, 53, 255);
 }
 
 .texto-azul {
-    color: blue;
+  color: blue;
 }
 
 /* Estilos base */
 body {
-    background-color: #ffffff;
-    color: #1a1a1a;
-    transition: background-color 0.3s, color 0.3s;
+  background-color: #ffffff;
+  color: #1a1a1a;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
 }
 
 /* Clase que se aplica al activar el modo oscuro */
 body.dark-mode {
-    background-color: #121212;
-    color: #e0e0e0;
+  background-color: #121212;
+  color: #e0e0e0;
 }
 
 body.dark-mode .texto-azul {
-    color: #64b5f6;
+  color: #64b5f6;
 }
 
 body.dark-mode .texto-destacado-azul {
-    color: #82b1ff;
+  color: #82b1ff;
 }
 
 /* Estilo simple para el botón */
 .btn-oscuro {
-    padding: 8px 12px;
-    cursor: pointer;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    background-color: #fff;
-    color: #000;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #000;
 }
 body.dark-mode .btn-oscuro {
-    background-color: #333;
-    color: #fff;
-    border-color: #555;
-  }
+  background-color: #333;
+  color: #fff;
+  border-color: #555;
+}
 
 /* Boton del lado lateral*/
-.btn-oscuro
- {
-    position: absolute;
-    top: 40px;
-    right: 20px;
-    z-index: 1000;
+.btn-oscuro {
+  position: absolute;
+  top: 40px;
+  right: 20px;
+  z-index: 1000;
 }
 
-/* ESTILOS CUANDO EL MODO OSCURO ESTÁ ACTIVO  */
+/* Solución al eslogan: Evitamos que el absolute lo coma o lo tape */
+header {
+  height: auto !important; /* Deja que el header crezca naturalmente */
+  padding-bottom: 20px !important;
+}
+header p {
+  position: static !important; /* Desactiva el absolute defectuoso */
+  display: block !important;
+  margin: 10px auto !important;
+  color: white !important; /* Se mantiene blanco siempre */
+}
 
-/* El fondo general se vuelve oscuro */
+/* Alineación simple para que tu botón no flote en cualquier lado */
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Alinea los textos y tu botón en la misma línea */
+  gap: 20px;
+}
+
+/* Estilo estético básico para TU botón (.btn-oscuro) */
+.btn-oscuro {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 5px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+.btn-oscuro:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* ========================================== */
+/* Reglas cuando el MODO OSCURO se activa     */
+/* ========================================== */
+
+/* Fondo general */
 body.dark-mode {
-    background-color: #121212;
+  background-color: #121212 !important;
+  color: #e0e0e0 !important;
 }
 
-/* El cuadro blanco principal ahora pasa a tener fondo oscuro */
-body.dark-mode #Box-Nosotros, 
-body.dark-mode #Box-imagenes, 
-body.dark-mode #Box-Contactanos {
-    background-color: #1e1e1e; /* Fondo oscuro suave para los bloques */
-    border: 1px solid #333;    /* Borde sutil opcional */
+/* Oscurece absolutamente todos los cuadros/secciones de todas las páginas */
+body.dark-mode main,
+body.dark-mode section,
+body.dark-mode article,
+body.dark-mode .card,
+body.dark-mode .card-body,
+body.dark-mode [id^="Box-"],
+body.dark-mode #quienes-somos,
+body.dark-mode #mision,
+body.dark-mode #areas-de-trabajo,
+body.dark-mode #vias-contacto,
+body.dark-mode #redes-contacto,
+body.dark-mode #lista-programas {
+  background-color: #1e1e1e !important;
+  color: #e0e0e0 !important;
+  border: 1px solid #333333 !important;
 }
 
-/* Las letras de los párrafos dentro de los bloques se vuelven claras */
-body.dark-mode p {
-    color: #e0e0e0 !important; 
+/* Forzar textos internos a gris claro para que no queden negros */
+body.dark-mode p,
+body.dark-mode li,
+body.dark-mode strong,
+body.dark-mode span {
+  color: #e0e0e0 !important;
 }
 
-/* El título azul cambia a un tono celeste para mejor contraste */
-body.dark-mode .texto-destacado-azul,
-body.dark-mode .texto-azul {
-    color: #64b5f6 !important;
+/* Títulos en un celeste suave muy tranqui */
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h2 span {
+  color: #64b5f6 !important;
 }
 
-/* Las letras del encabezado (que arriba eran blancas) ahora pasan a ser negras */
-body.dark-mode header h1,
-body.dark-mode header p,
-body.dark-mode .nav-link {
-    color: #000000 !important;
-}
-
-/* Correción de tipografía */
-header h1 
-{
-    font-family: 'Comic Neue', sans-serif; /* Aplica la fuente de todas las páginas */
-    font-weight: 300;                      /* Usa el peso más fino disponible */
-    background-color: transparent;         /* Elimina cualquier recuadro o fondo */
-    display: inline-block;                 /* Evita que ocupe bloques fantasmas */
+/* Enlaces del contenido central */
+body.dark-mode main a {
+  color: #64b5f6 !important;
 }
